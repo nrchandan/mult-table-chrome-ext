@@ -2,12 +2,12 @@
   "name": "Multiplication Tables",
   "version": "1.0",
   "description": "Handy multiplication tables for school learning",
-  "permissions": ["declarativeContent", "storage"],
+  "permissions": ["storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "page_action": {
+  "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "images/logo4-16.png",

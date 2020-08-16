@@ -13,13 +13,4 @@ chrome.runtime.onInstalled.addListener(function() {
   chrome.storage.sync.get('number', function(data) {
     console.log('New number is ' + data.number);
   });
-
-  chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
-    chrome.declarativeContent.onPageChanged.addRules([{
-      conditions: [new chrome.declarativeContent.PageStateMatcher()
-      ],
-          actions: [new chrome.declarativeContent.ShowPageAction()]
-    }]);
-  });
-  
 });
