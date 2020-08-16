@@ -1,0 +1,12 @@
+#multiplicationTable {
+  width: 200px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2ec4b6 !important;
+  color: #1d3557 !important;
+}
+
+#content {
+  height: 100%;
+  background-image: repeating-linear-gradient(#ffb600 0px, #ffb600 24px, teal 25px);
+  line-height: 25px;
+}
