@@ -22,5 +22,6 @@
     "48": "images/logo4-48.png",
     "128": "images/logo4-128.png"
   },
+  "options_page": "options.html",
   "manifest_version": 2
 }
